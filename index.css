@@ -1,0 +1,111 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav {
+    padding: 10px 10%;
+}
+
+.nav, .main h1, .articles-item .article-title, .learn-more-btn a, .article-btn a {
+    font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 75px;
+}
+
+.nav ul  {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+.nav ul li {
+    padding: 0 30px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.nav ul li a, .article-title {
+    color: #2f4f4f;
+}
+
+.nav ul li a, .learn-more-btn a, .article-btn a {
+    cursor: pointer;
+}
+
+.main {
+    background-color: #158479;
+    color: #fff;
+    padding: 35px 10% 20px;
+    overflow: hidden;
+}
+
+.main-content {
+    position: relative;
+    top: 100px;
+}
+
+.main-content h1 {
+    width: 60%;
+}
+
+.main-content p {
+    width: 50%;   
+}
+
+.learn-more-btn {
+    margin-top: 2em;
+}
+
+.main p, .articles p {
+    font-family: 'Montserrat-Light', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.phone {
+    float: right;
+    height: 550px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.articles-item {
+    margin: 5%;
+    text-align: center;
+    width: 300px;
+}
+
+.articles-item img {
+    width: 300px;
+}
+
+.articles-item p {
+    color: #708090;
+}
+
+.learn-more-btn a {
+    border: 2px solid #fff;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.article-btn a {
+    border: 2px solid #000;
+    padding: 8px 50px;
+    text-decoration: none;
+    color: #000;
+}
